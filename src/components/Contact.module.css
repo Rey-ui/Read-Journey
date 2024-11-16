@@ -1,0 +1,89 @@
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+body {
+  font-family: sans-serif;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+button {
+  cursor: pointer;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  display: block;
+}
+/*--------------------*/
+.contactContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 5px;
+}
+.contactText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  font-size: 16px;
+}
+.contactSvg {
+}
+.contactData {
+}
+.contactDelete {
+  padding: 10px 14px;
+  font-size: 16px;
+  color: #ffffff;
+  border-radius: 5px;
+  background-color: rgb(75, 73, 73);
+  transition: all 0.3s;
+}
+.contactDelete:hover {
+  background-color: rgb(99, 47, 47);
+}
+.contactDelete:active {
+  transform: scale(1.1);
+}
